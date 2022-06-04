@@ -1,4 +1,6 @@
 # git-experiments
-Experiments with using git to serve dynamic content in pages
+Experiments with using Github Pages to serve dynamic content
 
-Would like to link the other file [here](using-jquery.md)
+Visit [https://paulboon.github.io/git-experiments/](https://paulboon.github.io/git-experiments/) .
+
+B.T.W. I don't expect anyone to clone this repo or do any PR's on it.
