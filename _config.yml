@@ -22,7 +22,7 @@ title: Experiments with dynamic webpages
 email: paul.boon@dans.knaw.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Experiments with using Github Pages to serve dynamic content.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/git-experiments" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
