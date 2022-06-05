@@ -15,7 +15,8 @@ document.getElementById("text").innerHTML = "Text added by JavaScript code";
 -->
 
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <script>
 // checking the version
 let hasJQ = typeof jQuery === 'function'; 
@@ -32,12 +33,14 @@ $().ready(function() {
 <p>
 Getting information from external services, like Wikipedia, via Ajax. 
 <br/>
+<!-- no form -->
+<input type="text" id="queryString" value="Ajax">
 <input id="btnSubmit" type="submit" class="button" value="Get results"/>
 <!-- <a id="btnSubmit" href="#" class="button green">Get results</a> -->
 <br/>
 
 <div id="wikiAjax" style="display:none;">
-<p>Below the twenty topmost search results for the string 'Ajax' from the English Wikipedia API. </p>
+<p>Below the ten topmost search results for the string '<span id="qStrVal"></span>' from the English Wikipedia API. </p>
 <div id="wikiAjaxList" style="border-style:inset"></div>
 </div>
 </p>
@@ -48,15 +51,17 @@ Getting information from external services, like Wikipedia, via Ajax.
 $().ready(function() {
 // do the Ajax call on button click and not on a pageload
 $("#btnSubmit").click(function(){
- 
+     var qstr = $("#queryString").val();
+     $("#qStrVal").text(qstr); // echo the input
+
      var wikiURL = "https://en.wikipedia.org/w/api.php";
 wikiURL += '?' + $.param({
     'action' : 'opensearch',
-    'search' : 'Ajax',
+    'search' : qstr, //'Ajax',
     'prop'  : 'revisions',
     'rvprop' : 'content',
     'format' : 'json',
-    'limit' : 20
+    'limit' : 10
 });
 
 $.ajax({

@@ -12,11 +12,17 @@ layout: home
      because that is the default with those pages 
      and it allows me to get a fast 'preview when developing -->
 
+<!-- Instead of using the 'blog' capabilities with posts I just put the content here -->
 <h2>Experiments</h2>
 <ul>
 <li>
 <div markdown="1">
-  [Using jQuery in Github Pages](using-jquery.md) 
+[Using jQuery in Github Pages](using-jquery.md) 
+</div>
+</li>
+<li>
+<div markdown="1">
+[Using the Leaflet map library in Github Pages](using-leaflet) 
 </div>
 </li>
 <li>...</li>
