@@ -25,5 +25,10 @@ layout: home
 [Using the Leaflet map library in Github Pages](using-leaflet) 
 </div>
 </li>
+<li>
+<div markdown="1">
+[Extracting geolocation from search results](extracting-geolocation) 
+</div>
+</li>
 <li>...</li>
 </ul>

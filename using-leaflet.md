@@ -15,7 +15,7 @@ The code is based on some basic examples from <a href="https://leafletjs.com">th
 </p>
 
 ```html
-<div id="map" style="border-style:inset;"></div>
+<div id="map" style="height:320px;"></div>
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Leaflet -->
@@ -62,4 +62,6 @@ marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
 });
 </script>
 
+<!-- would be nice to get coordinates from another service, 
+     but all I can find are having an API with a key, makes them server side only -->
 <!-- TODO use coordinates from searching the DANS archives -->
