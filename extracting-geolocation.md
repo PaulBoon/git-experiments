@@ -205,7 +205,7 @@ $("#btnSubmit").click(function(){
         "type": "FeatureCollection",
         "features": featureArr
       };
-      download(JSON.stringify(itemCollection,null,2), "results_geo.json", "application/json");
+      download(JSON.stringify(itemCollection,null,2), "results.geojson", "application/geo+json");
     });
 
 });
