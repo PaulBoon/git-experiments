@@ -30,5 +30,10 @@ layout: home
 [Extracting geolocation from search results](extracting-geolocation) 
 </div>
 </li>
+<li>
+<div markdown="1">
+[Using the Timeline library in Github Pages](using-timeline) 
+</div>
+</li>
 <li>...</li>
 </ul>
