@@ -32,7 +32,7 @@ layout: home
 </li>
 <li>
 <div markdown="1">
-[Using the Timeline library in Github Pages](using-timeline) 
+[Using the Timeline visualisation library in Github Pages](using-timeline) 
 </div>
 </li>
 <li>...</li>
