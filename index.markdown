@@ -35,5 +35,10 @@ layout: home
 [Using the Timeline visualisation library in Github Pages](using-timeline) 
 </div>
 </li>
+<li>
+<div markdown="1">
+[Extracting timespan from search results](extracting-timespan) 
+</div>
+</li>
 <li>...</li>
 </ul>

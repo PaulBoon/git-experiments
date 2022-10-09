@@ -81,6 +81,11 @@ $(document).ready(function() {
           /* something is wrong */
         }
 
+        return originalItemData.title + " </br>" + periodStr;
+      }
+    }
+  };
+
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, options);
 
