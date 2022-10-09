@@ -186,7 +186,7 @@ $("#resultTable> tbody").on('click','tr',function () {
 
 <h4>Search the DCCD dendrochronology Datasets</h4>
 <p>
-The archive is here: <a href="https://dataverse.nl/dccd">https://dataverse.nl/dccd</a>. 
+The archive is here: <a href="https://dataverse.nl/dataverse/dccd">https://dataverse.nl/dataverse/dccd</a>. 
 
 Most of these datasets have a timespan
 </p>
