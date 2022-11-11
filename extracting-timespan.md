@@ -32,19 +32,32 @@ padding: 5px;
   clear: both;
 }
 */
+
+
 #resultTable {
   border-collapse: collapse;
   border: 1px solid rgb(23, 156, 234);
   width: 100%;
 }
+
 #resultTable th {
   text-align: left;
   background-color: rgb(23, 156, 234);
   color: white;
+
+  /* when wrapping cells, hide the header */
+  display: none;
 }
 #resultTable td {
-  border: 1px solid rgb(23, 156, 234);
+  /* border: 1px solid rgb(23, 156, 234); */
   vertical-align: top;
+
+    /*  below makes cells of a row wrap */
+    float:none; 
+    display:block; 
+}
+#resultTable tr {
+  border: 1px solid rgb(23, 156, 234);
 }
 #resultTable> tbody tr.selected {
     background-color: lightskyblue !important;

@@ -39,11 +39,21 @@ padding: 5px;
   text-align: left;
   background-color: rgb(23, 156, 234);
   color: white;
+
+  /* when wrapping cells, hide the header */
+  display: none;
 }
 #resultTable td {
-  border: 1px solid rgb(23, 156, 234);
+  /* border: 1px solid rgb(23, 156, 234); */
   vertical-align: top;
-} 
+  
+  /*  below makes cells of a row wrap */
+  float:none; 
+  display:block; 
+}
+#resultTable tr {
+  border: 1px solid rgb(23, 156, 234);
+}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" 
