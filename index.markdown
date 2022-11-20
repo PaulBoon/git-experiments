@@ -27,6 +27,11 @@ layout: home
 </li>
 <li>
 <div markdown="1">
+[Converting RD coordinates and show on the map](converting-rdcoordinates) 
+</div>
+</li>
+<li>
+<div markdown="1">
 [Extracting geolocation from search results](extracting-geolocation) 
 </div>
 </li>
@@ -38,6 +43,11 @@ layout: home
 <li>
 <div markdown="1">
 [Extracting timespan from search results](extracting-timespan) 
+</div>
+</li>
+<li>
+<div markdown="1">
+[Extracting and visualising both time and location from search results](extract-time-and-location) 
 </div>
 </li>
 <li>...</li>
